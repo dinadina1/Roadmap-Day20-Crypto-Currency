@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: url('./Assets/background-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: border-box;
+}
+
+.col-center {
+    width: fit-content;
+    height: fit-content;
+    padding-top: 10px;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    padding-top: 0;
+}
+
+.card-header {
+    border: none;
+}
+
+.card {
+    background: transparent;
+    border: none;
+    color: whitesmoke;
+}
+
+.title {
+    text-align: center;
+    color: whitesmoke;
+}
+
+h2 {
+    padding-top: 5px;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.fa-search:hover {
+    font-size: 20px;
+}
+
+.form-control {
+    width: 100%;
+}
