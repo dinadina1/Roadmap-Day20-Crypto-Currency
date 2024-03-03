@@ -22,8 +22,9 @@ card.className = "card";
 // card-header creation
 let card_header = document.createElement("div");
 card_header.className = "card-header";
-card_header.innerHTML = `<div class="input-group mb-3" id="myForm">
-<input id="searchbar" type="text" class="form-control" name="query" placeholder="Search Crypto Currencies" aria-label="Search Crypto Currencies" aria-describedby="basic-addon2">
+card_header.innerHTML = `<label for="cityInput" class="form-group__label">Enter Currency Name:</label>
+<div class="input-group mb-3" id="myForm">
+<input id="searchbar" type="text" class="form-control" name="query" placeholder="Eg., Bitcoin" aria-label="Search Crypto Currencies" aria-describedby="basic-addon2">
 <button class="input-group-text" id="basic-addon2" onclick="getCurrencyInfo()"><i class="fa fa-search" aria-hidden="true"></i></button>
 </div>`;
 
